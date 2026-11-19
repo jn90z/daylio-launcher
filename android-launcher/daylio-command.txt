@@ -1,0 +1,1 @@
+am start --user 10 -n net.daylio/net.daylio.activities.OverviewActivity
