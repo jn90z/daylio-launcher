@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open Daylio</title>
+<style>
+:root { color-scheme: light; font-family: system-ui, sans-serif; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f2f5fb; color: #17233b; }
+main { width: min(90vw, 420px); text-align: center; background: white; border-radius: 24px; padding: 34px 22px; box-shadow: 0 10px 35px #17233b14; }
+h1 { margin: 0 0 12px; font-size: 32px; }
+p { line-height: 1.5; color: #526078; }
+a.button { display: block; text-decoration: none; background: #6754d8; color: white; border-radius: 14px; padding: 18px 12px; margin-top: 20px; font-size: 21px; font-weight: 700; }
+a.secondary { background: #e9e6ff; color: #3e2e9a; font-size: 16px; }
+small { display: block; margin-top: 22px; color: #69768d; }
+</style>
+</head>
+<body>
+<main>
+<h1>Daylio</h1>
+<p>Tap below to open your Daylio app.</p>
+<a class="button" href="intent://www.daylio.net/redirect#Intent;scheme=https;action=android.intent.action.VIEW;package=net.daylio;end">Open Daylio</a>
+<a class="button secondary" href="https://www.daylio.net/redirect">Try HTTPS link</a>
+<small>If neither button opens Daylio, Amazon Silk may be blocking external app launches.</small>
+</main>
+</body>
+</html>
